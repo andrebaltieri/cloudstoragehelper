@@ -1,0 +1,21 @@
+﻿@model List<string>
+@{
+    ViewBag.Title = "Windows Azure Storage";
+}
+
+<h2>Windows Azure Storage</h2>
+
+@foreach (var item in Model)
+{
+    <img src="@item" width="200" />
+}
+
+@using (Html.BeginForm("Index", "Home",
+    FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <input type="file" name="fileBase" />
+    <p>
+        <input type="submit" value="Upload" />
+    </p>
+}

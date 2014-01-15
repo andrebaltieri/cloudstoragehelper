@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CloudStorageSample.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AzureStorageConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;DefaultEndpointsProtocol=https;AccountName=esb;AccountKey=smEnElOsriEHjZf242dpmaY6t1MdB3klCzGxVVrYC2XDXxFuy4K2XW6qwE+o7qm8Gza/Mhifz2WyLXHN/Lqr0w==&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">DefaultEndpointsProtocol=https;AccountName=esb;AccountKey=smEnElOsriEHjZf242dpmaY6t1MdB3klCzGxVVrYC2XDXxFuy4K2XW6qwE+o7qm8Gza/Mhifz2WyLXHN/Lqr0w==</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
